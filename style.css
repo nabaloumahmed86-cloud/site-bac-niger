@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f8ff;
+  color: #1e2a44;
+}header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1a56db;
+}nav a {
+  text-decoration: none;
+  color: #1e2a44;
+  margin: 0 12px;
+  font-size: 15px;
+}
+
+nav a:hover {
+  color: #1a56db;
+}.boutons a {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-left: 8px;
+}.boutons a:first-child {
+  color: #1a56db;
+  border: 1px solid #1a56db;
+  background-color: white;
+}.boutons a:last-child {
+  color: white;
+  background-color: #1a56db;
+}.banniere {
+  background-color: #1a56db;
+  color: white;
+  padding: 70px 40px;
+}.banniere h1 {
+  font-size: 40px;
+  max-width: 500px;
+  margin-bottom: 15px;
+}
+
+.banniere p {
+  font-size: 17px;
+  max-width: 500px;
+  margin-bottom: 30px;
+}.recherche {
+  display: flex;
+  max-width: 500px;
+}
+
+.recherche input {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  font-size: 15px;
+}
+
+.recherche button {
+  padding: 14px 22px;
+  border: none;
+  background-color: #f59e0b;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 0 6px 6px 0;
+}.choix {
+  background-color: white;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.choix h2 {
+  font-size: 18px;
+  margin-bottom: 18px;
+}.choix-formulaire {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.champ {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.champ label {
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.champ select {
+  padding: 12px;
+  border: 1px solid #ccd5e5;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: white;
+}.choix-formulaire button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1a56db;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}.ressources {
+  max-width: 1000px;
+  margin: 0 auto 40px auto;
+  padding: 0 10px;
+}
+
+.ressources h2 {
+  font-size: 20px;
+  margin-bottom: 18px;
+}.cartes {
+  display: flex;
+  gap: 20px;
+}
+
+.carte {
+  flex: 1;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.carte h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.carte p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}.carte-bleue {
+  background-color: #e3edff;
+}
+
+.carte-verte {
+  background-color: #dcf7e6;
+}
+
+.carte-orange {
+  background-color: #ffeed9;
+}.carte a {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.carte-bleue a {
+  background-color: #1a56db;
+}
+
+.carte-verte a {
+  background-color: #16a34a;
+}
+
+.carte-orange a {
+  background-color: #f59e0b;
+}footer {
+  background-color: #0f2a52;
+  color: white;
+  padding: 30px 40px 15px 40px;
+}.footer-haut {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo p {
+  font-size: 13px;
+  margin-top: 4px;
+  color: #b8c7e0;
+}
+
+.footer-liens a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 18px;
+}
+
+.footer-liens a:hover {
+  color: #f59e0b;
+}.footer-credit {
+  border-top: 1px solid #2c4a7c;
+  padding-top: 12px;
+  text-align: center;
+}
+
+.footer-credit p {
+  font-size: 13px;
+  color: #b8c7e0;
+  margin-bottom: 4px;
+}.fichier {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pdf-badge {
+  background-color: #fde8e8;
+  color: #dc2626;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px 8px;
+  border-radius: 6px;
+}.page-connexion {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.connexion {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.connexion-gauche {
+  flex: 1;
+  background-color: #1a56db;
+  color: white;
+  padding: 50px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.connexion-gauche h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.devise {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.message {
+  font-size: 14px;
+  color: #d6e4ff;
+}
+
+.connexion-droite {
+  flex: 1;
+  padding: 45px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.connexion-droite h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.sous-titre {
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  margin: 5px 0 25px 0;
+}
+
+.connexion-droite label {
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.connexion-droite input[type="text"],
+.connexion-droite input[type="password"] {
+  padding: 12px;
+  border: 1px solid #ccd5e5;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.souvenir {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.souvenir label {
+  margin-bottom: 0;
+}
+
+.connexion-droite button {
+  padding: 13px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1a56db;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.oublie {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 13px;
+  color: #1a56db;
+  text-decoration: none;
+}
+
+.inscription {
+  text-align: center;
+  font-size: 13px;
+  color: #555;
+}
+
+.inscription a {
+  color: #1a56db;
+  font-weight: bold;
+  text-decoration: none;
+}@media (max-width: 768px) {
+
+  /* Bandeau du haut */
+  header {
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px 20px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 4px 8px;
+  }
+
+  /* Bannière */
+  .banniere {
+    padding: 40px 20px;
+  }
+
+  .banniere h1 {
+    font-size: 28px;
+  }
+
+  /* Choix série / matière */
+  .choix {
+    margin: 20px 15px;
+    padding: 20px;
+  }
+
+  .choix-formulaire {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  /* Cartes de ressources */
+  .ressources {
+    padding: 0 15px;
+  }
+
+  .cartes {
+    flex-direction: column;
+  }
+
+  /* Pied de page */
+  .footer-haut {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .footer-liens a {
+    display: inline-block;
+    margin: 4px 9px;
+  }
+
+  /* Pages cours et annales */
+  .page-cours {
+    flex-direction: column;
+  }
+
+  .matieres {
+    width: 100%;
+  }
+
+  .cours-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  /* Page de connexion */
+  .connexion {
+    flex-direction: column;
+  }
+
+  .connexion-gauche {
+    padding: 30px 20px;
+  }
+
+  .connexion-droite {
+    padding: 30px 20px;
+  }
+
+}
